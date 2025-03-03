@@ -33,16 +33,16 @@ nav ul li a {
 
 section {
     display: flex;
-    justify-content: center;  /* Centers horizontally */
-    align-items: center;  /* Centers vertically */
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    height: 100vh;  /* Full viewport height */
-    padding: 0;  /* Remove extra padding */
+    height: 100vh;
+    padding: 0;
 }
 
 .content {
     display: flex;
-    flex-direction: column; /* Stack heading and list vertically */
+    flex-direction: column;
     align-items: center;
 }
 
@@ -52,8 +52,8 @@ ul {
 }
 
 ul li {
-    display: inline-block;  /* Keeps items in a row */
-    margin: 0 15px;  /* Adds spacing between items */
+    display: inline-block;
+    margin: 0 15px;
 }
 
 footer {
