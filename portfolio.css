@@ -1,3 +1,5 @@
+/* start style */
+
 html {
     scroll-behavior: smooth;
 }
@@ -8,6 +10,8 @@ body {
     padding: 0;
     background-color: #f4f4f4;
 }
+
+/* header style */
 
 header {
     background-color: #333;
@@ -33,6 +37,8 @@ nav ul li a {
     text-decoration: none;
 }
 
+/* content style */
+
 section {
     display: flex;
     justify-content: center;
@@ -42,21 +48,53 @@ section {
     padding: 0;
 }
 
+/* h2 to h5 style */
+
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+h4 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+h5 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* end of h2 to h5 style */
+
+/* link style */
+
 #about {
     scroll-margin-top: 230px;
-  }
+}
 
 #tech_stack {
     scroll-margin-top: 230px;
-  }
+}
 
 #projects {
     scroll-margin-top: 230px;
-  }
+}
 
 #certificates {
     scroll-margin-top: 230px;
-  }
+}
+
+/* end of link style */
 
 .section {
     background-color: #fff;
@@ -88,6 +126,24 @@ p {
     align-items: center;
 }
 
+.content ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.content ul:first-of-type {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.content img {
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
 ul {
     padding: 0;
     margin-top: 10px;
@@ -97,6 +153,8 @@ ul li {
     display: inline-block;
     margin: 0 15px;
 }
+
+/* footer style */
 
 footer {
     background-color: #333;
