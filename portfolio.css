@@ -32,13 +32,28 @@ nav ul li a {
 }
 
 section {
+    display: flex;
+    justify-content: center;  /* Centers horizontally */
+    align-items: center;  /* Centers vertically */
     text-align: center;
-    padding: 300px;
+    height: 100vh;  /* Full viewport height */
+    padding: 0;  /* Remove extra padding */
 }
 
-section ul li {
-    display: inline;
-    margin: 0 15px;
+.content {
+    display: flex;
+    flex-direction: column; /* Stack heading and list vertically */
+    align-items: center;
+}
+
+ul {
+    padding: 0;
+    margin-top: 10px;
+}
+
+ul li {
+    display: inline-block;  /* Keeps items in a row */
+    margin: 0 15px;  /* Adds spacing between items */
 }
 
 footer {
