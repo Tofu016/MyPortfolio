@@ -29,13 +29,6 @@ nav ul li a {
     text-decoration: none;
 }
 
-.circle_img {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    object-fit: cover;
-}
-
 section {
     display: flex;
     justify-content: center;
@@ -43,6 +36,19 @@ section {
     text-align: center;
     height: 100vh;
     padding: 0;
+}
+
+.circle_img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+p {
+    text-align: justify;
+    line-height: 1.5;
+    max-width: 800px;
 }
 
 .content {
