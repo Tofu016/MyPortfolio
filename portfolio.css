@@ -33,7 +33,7 @@ header {
     top: 0;
     left: 0;
     overflow-y: auto;
-    transition: 0.3s;
+    transition: transform 0.3s ease;
 }
 
 .sidebar a {
@@ -50,6 +50,7 @@ header {
 
 .sidebar.closed {
     width: 70px;
+    transform: translateX(-100%);
 }
 
 .sidebar.closed a {
@@ -79,6 +80,17 @@ header {
     left: 80px;
 }
 /* end of sidebar style */
+
+/* text for sidebar style */
+.text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+}
+/* end of text for sidebar style */
 
 /* content style */
 section {
