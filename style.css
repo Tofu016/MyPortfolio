@@ -38,11 +38,17 @@ section a {
     color: black;
     text-decoration: none;
     font-weight: bold;
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-top: 10px;
 }
 
 section a:hover {
     color: lightblue;
     text-decoration: underline;
+    border-color: lightblue;
 }
 
 
