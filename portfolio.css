@@ -12,7 +12,6 @@ body {
 }
 
 /* header style */
-
 header {
     background-color: #333;
     color: white;
@@ -21,24 +20,67 @@ header {
     top: 0%;
     width: 100%;
 }
+/* end of header style */
 
-nav ul{
-    list-style: none;
-    padding: 0;
+/* sidebar style */
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background: #333;
+    color: white;
+    padding-top: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-y: auto;
+    transition: 0.3s;
 }
 
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-nav ul li a {
+.sidebar a {
+    display: block;
+    padding: 15px;
     color: white;
     text-decoration: none;
+    transition: 0.3s;
 }
 
-/* content style */
+.sidebar a:hover {
+    background: #575757;
+}
 
+.sidebar.closed {
+    width: 70px;
+}
+
+.sidebar.closed a {
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.sidebar.closed ~ .main-content {
+    margin-left: 70px;
+}
+
+.toggle-btn {
+    position: absolute;
+    top: 10px;
+    left: 260px;
+    cursor: pointer;
+    background: #333;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.sidebar.closed + .toggle-btn {
+    left: 80px;
+}
+/* end of sidebar style */
+
+/* content style */
 section {
     display: flex;
     justify-content: center;
@@ -49,7 +91,6 @@ section {
 }
 
 /* h2 to h5 style */
-
 h2 {
     font-size: 30px;
     font-weight: bold;
@@ -73,11 +114,9 @@ h5 {
     font-weight: bold;
     margin-bottom: 10px;
 }
-
 /* end of h2 to h5 style */
 
 /* link style */
-
 #about {
     scroll-margin-top: 230px;
 }
@@ -93,7 +132,6 @@ h5 {
 #certificates {
     scroll-margin-top: 230px;
 }
-
 /* end of link style */
 
 .section {
@@ -153,9 +191,9 @@ ul li {
     display: inline-block;
     margin: 0 15px;
 }
+/* end of content style */
 
 /* footer style */
-
 footer {
     background-color: #333;
     color: white;
@@ -173,3 +211,4 @@ footer a:hover {
     color: lightblue;
     text-decoration: underline;
 }
+/* end of footer style */
