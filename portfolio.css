@@ -10,10 +10,9 @@ header {
     color: white;
     padding: 5px;
     text-align: center;
-    position: fixed;
-    height: 120px;
-    width: 1920px;
-    overflow-y: auto;
+    position: sticky;
+    top: 0%;
+    width: 100%;
 }
 
 nav ul{
