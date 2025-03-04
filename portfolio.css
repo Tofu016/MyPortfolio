@@ -63,7 +63,7 @@ header {
 .toggle-btn {
     position: fixed;
     top: 20px;
-    left: 260px;
+    left: 20px;
     cursor: pointer;
     background: #333;
     color: white;
@@ -75,7 +75,7 @@ header {
 
 /* When sidebar is closed, move the button as well */
 .sidebar.closed + .toggle-btn {
-    left: 20px;
+    left: 260px;
 }
 
 /* Text container styling */
