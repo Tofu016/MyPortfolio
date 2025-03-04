@@ -65,23 +65,27 @@ footer {
 
 /* Mobile Styles */
 @media screen and (max-width: 768px) {
+    header {
+        position: fixed;
+    }
+    
     section {
-        height: auto;
+        height: 550px;
         padding: 40px 20px;
     }
 
     .circle_img {
-        width: 120px; /* Make the image smaller */
+        width: 120px;
         height: 120px;
     }
 
     section a {
-        padding: 10px 20px; /* Better tap area */
+        padding: 10px 20px;
         font-size: 14px;
     }
 
     footer {
-        position: relative; /* Prevents overlap issues */
+        position: fixed;
         padding: 15px;
     }
 }
