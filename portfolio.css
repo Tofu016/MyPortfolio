@@ -200,6 +200,46 @@ ul li {
     display: inline-block;
     margin: 0 15px;
 }
+
+.cert-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.cert-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cert-item p {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.tech-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.tech-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tech-item p {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
 /* end of content style */
 
 /* footer style */
