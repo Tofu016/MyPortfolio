@@ -62,7 +62,7 @@ header {
 /* Toggle button styling */
 .toggle-btn {
     position: fixed;
-    top: 10px;
+    top: 20px;
     left: 260px;
     cursor: pointer;
     background: #333;
