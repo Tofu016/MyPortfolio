@@ -22,7 +22,7 @@ header {
 }
 /* end of header style */
 
-/* sidebar style */
+/* Sidebar styling */
 .sidebar {
     width: 250px;
     height: 100vh;
@@ -34,6 +34,12 @@ header {
     left: 0;
     overflow-y: auto;
     transition: transform 0.3s ease;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+}
+
+.sidebar li {
+    width: 100%;
 }
 
 .sidebar a {
@@ -48,23 +54,14 @@ header {
     background: #575757;
 }
 
+/* Closed sidebar - moves sidebar left */
 .sidebar.closed {
-    width: 70px;
     transform: translateX(-100%);
 }
 
-.sidebar.closed a {
-    text-align: center;
-    padding: 10px;
-    font-size: 14px;
-}
-
-.sidebar.closed ~ .main-content {
-    margin-left: 70px;
-}
-
+/* Toggle button styling */
 .toggle-btn {
-    position: absolute;
+    position: fixed; /* Fixed so it moves with the sidebar */
     top: 10px;
     left: 260px;
     cursor: pointer;
@@ -73,15 +70,15 @@ header {
     padding: 10px 15px;
     border: none;
     font-size: 16px;
-    transition: 0.3s;
+    transition: left 0.3s ease;
 }
 
+/* When sidebar is closed, move the button as well */
 .sidebar.closed + .toggle-btn {
-    left: 80px;
+    left: 20px;
 }
-/* end of sidebar style */
 
-/* text for sidebar style */
+/* Text container styling */
 .text-container {
     display: flex;
     flex-direction: column;
@@ -90,7 +87,7 @@ header {
     max-width: 600px;
     margin: 0 auto;
 }
-/* end of text for sidebar style */
+/* end of sidebar style */
 
 /* content style */
 section {
