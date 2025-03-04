@@ -61,7 +61,7 @@ header {
 
 /* Toggle button styling */
 .toggle-btn {
-    position: fixed; /* Fixed so it moves with the sidebar */
+    position: fixed;
     top: 10px;
     left: 260px;
     cursor: pointer;
