@@ -62,3 +62,26 @@ footer {
     width: 100%;
     position: fixed;
 }
+
+/* Mobile Styles */
+@media screen and (max-width: 768px) {
+    section {
+        height: auto;
+        padding: 40px 20px;
+    }
+
+    .circle_img {
+        width: 120px; /* Make the image smaller */
+        height: 120px;
+    }
+
+    section a {
+        padding: 10px 20px; /* Better tap area */
+        font-size: 14px;
+    }
+
+    footer {
+        position: relative; /* Prevents overlap issues */
+        padding: 15px;
+    }
+}

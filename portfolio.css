@@ -261,3 +261,51 @@ footer a:hover {
     text-decoration: underline;
 }
 /* end of footer style */
+
+/* Mobile-friendly styles */
+@media screen and (max-width: 768px) {
+    .sidebar {
+        width: 200px;
+        transform: translateX(-100%);
+    }
+
+    .sidebar.open {
+        transform: translateX(0);
+    }
+
+    .toggle-btn {
+        left: 10px;
+        top: 10px;
+        font-size: 14px;
+        padding: 8px 12px;
+    }
+
+    .sidebar.open + .toggle-btn {
+        left: 210px;
+    }
+
+    .section {
+        width: 90%;
+        margin: 50px auto;
+        padding: 30px;
+    }
+
+    h2, h3, h4, h5 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    .cert-container, .tech-container, .content ul {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .circle_img {
+        width: 150px;
+        height: 150px;
+    }
+}
