@@ -1,5 +1,4 @@
 /* start style */
-
 html {
     scroll-behavior: smooth;
 }
@@ -104,12 +103,13 @@ h2, h3, h4, h5{
     font-size: 30px;
     font-weight: bold;
     margin-bottom: 10px;
+    display: none;
 }
 /* end of h2 to h5 style */
 
 /* link style */
 #about, #tech_stack, #projects, #certificates{
-    scroll-margin-top: 230px;
+    scroll-margin-top: 150px;
 }
 
 /* end of link style */
