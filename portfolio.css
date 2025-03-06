@@ -108,7 +108,7 @@ h2, h3, h4, h5{
 /* end of h2 to h5 style */
 
 /* link style */
-#about, #tech_stack, #projects, #certificates{
+#about, #tech_stack, #contact, #certificates{
     scroll-margin-top: 150px;
 }
 
@@ -272,6 +272,7 @@ footer a:hover {
 
     .section{
         padding: 10px;
+        margin-right: 10px;
     }
 
     p{
