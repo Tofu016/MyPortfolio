@@ -67,6 +67,8 @@ footer {
 @media screen and (max-width: 768px) {
     header {
         position: fixed;
+        text-align: center;
+        width: 350px;
     }
     
     section {
@@ -85,7 +87,8 @@ footer {
     }
 
     footer {
-        position: fixed;
+        position: absolute;
         padding: 15px;
+        width: 330px;
     }
 }
